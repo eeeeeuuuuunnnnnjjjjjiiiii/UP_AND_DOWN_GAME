@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
-    
 </head>
+
 <body>
-    hi eunji
-    
+    <div class="container">
+        <h1 class="pre-title">UP & DOWN</h1>
+        <h1 class="title">GAME</h1>
+        <h1 class="sub-title"><span class="red-text">죽음</span>의 업 & 다운</h1>
+        <div id="result-area">
+            <img src="https://img.freepik.com/premium-vector/download-and-upload-icon-vector-illustration_454371-68.jpg" class="main-img">
+            <h1 class="result-text">맞춰봐</h1>
+        </div>
+        <h2 id="chance-area">남은 기회:</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <input type="number" id="user-input" class="form-control mb-10" placeholder="1부터 100까지 숫자를 입력" />
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-success mb-2 button-style" id="play-button">Go!!</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <button class="btn btn-warning mt-3 button-style button-reset">리셋!</button>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
