@@ -1,4 +1,4 @@
-h1{}body {
+body {
     /* background-repeat: no-repeat; */
     background-size: cover;
     height: 100vh;
@@ -6,15 +6,23 @@ h1{}body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "East Sea Dokdo", cursive;
-    background-image: url(image/soju.jpeg);
+    font-family: 'SejonghospitalBold';
+    background-color: #F5F5DC;
+    overflow: hidden;
   }
   
+  @font-face {
+    font-family: 'SejonghospitalBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
   .container {
     border: 10px solid white;
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(247, 243, 242, 0.7);
+    height:95vh;
   }
   
   
@@ -24,43 +32,48 @@ h1{}body {
     justify-content: center;
   }
   
-  
+  .button-reset{
+    top: -104px;
+    right: -135px;
+  }
   
   .button-style {
     height: 80px;
     width: 100px;
-    margin-top: 5px;
     border-radius: 50px;
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: bold;
+    position: relative;
   }
   .pre-title {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
-    color: blue;
+    color: #FFB000;
+    margin-top: 15px;
   }
   .title {
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: bold;
   }
   .sub-title {
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: bold;
   }
   
   .main-img {
     width: 20vw;
-    height: 20vh
+    height: 27vh;
+    margin:18px;
   }
   
   .red-text {
-    color: red;
+    color: #004225;
   }
   
   .form-control {
     height: 80px;
   
-    font-size: 3vw;
+    font-size: 2vw;
     margin-right: 20px;
     text-align: center;
   }
@@ -76,7 +89,7 @@ h1{}body {
       font-size: 11vw;
     }
     .form-control {
-      font-size: 8vw;
+      font-size: 5vw;
       max-width: 500px;
       margin-right: 0px;
     }
@@ -85,7 +98,8 @@ h1{}body {
     }
     .button-reset {
       font-size: 5vw;
-      width: 80px;
-      height: 60px;
+      position: relative;
+      top: -13px;
+      left: 10px;
     }
   }

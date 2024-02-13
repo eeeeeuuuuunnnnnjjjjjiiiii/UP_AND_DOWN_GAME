@@ -53,14 +53,14 @@ function play() {
   userValueList.push(userValue);
   if (userValue < computerNumber) {
     resultAreaImg.src =
-      "https://media0.giphy.com/media/3ov9jExd1Qbwecoqsg/200.gif";
+      "https://mblogthumb-phinf.pstatic.net/20150630_61/nikei0613_1435650812442Ag6k1_JPEG/downloadfile-189.jpg?type=w420";
     resultText.textContent = "Up!";
   } else if (userValue > computerNumber) {
-    resultAreaImg.src = "https://media.giphy.com/media/r2puuhrnjG7vy/giphy.gif";
+    resultAreaImg.src = "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjVfMTU4/MDAxNTk4MzU5NjQ2MTc2.Mg8bFUtNZN-mhniYh6bhGB5_vXYDcjEA-RAnB1rjTTYg.oc3kCIsw6TKpRUHS74Tt9WrVuxc9ifRT3lr0dfGka2Qg.JPEG.ttb717/IMG_4632.JPG?type=w800";
     resultText.textContent = "Down!";
   } else {
     resultAreaImg.src =
-      "https://media.tenor.com/images/0a81b89954678ebe228e15e35044f7a5/tenor.gif";
+      "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MjVfMjEy/MDAxNTk4MzU5NDA3ODI4.suxRrmDlTYZxodWFWiyTw6grx5dUYLl9CaXzyNBdJBAg.OtzhRhQCkMX8tE_FO5KZkqVsA7Teap3GrnGiAnlJgrkg.JPEG.ttb717/IMG_4593.JPG?type=w800";
     resultText.textContent = "정답!";
     gameOver = true;
   }
