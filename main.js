@@ -83,8 +83,8 @@ function reset() {
   pickRandomNumber();
   userInput.value = "";
   resultAreaImg.src =
-    "https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif";
-  resultText.textContent = "죽기 싫다면 맞춰라";
+    "https://mblogthumb-phinf.pstatic.net/20150705_262/nars4013_1436108372970C5sN0_JPEG/IMG_20150703_130121.jpg?type=w420";
+  resultText.textContent = "죽기 싫다면 맞춰봐라";
   gameOver = false;
   playButton.disabled = false;
   chances = 5;
