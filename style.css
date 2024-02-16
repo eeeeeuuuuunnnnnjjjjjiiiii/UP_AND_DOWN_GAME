@@ -99,13 +99,14 @@ body {
     .button-reset {
       font-size: 5vw;
       position: relative;
-      top: -13px;
+      top: 0px;
       left: 10px;
     }
     .container{
       height: 100vh;
     }
     .button-style{
+      margin-top: 25px;
       height: 60px;
     }
   }
